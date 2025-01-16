@@ -6,18 +6,21 @@ desktop.ini
 .DS_Store
 
 # Tests and benchmarks
-tests/png
-tests/pdf
-tests/target
+tests/store
+tests/suite/**/*.pdf
+tests/fuzz/target
+tests/fuzz/corpus
+tests/fuzz/artifacts
+tests/fuzz/coverage
 tarpaulin-report.html
 
 # Rust
 /target
-bench/target
 **/*.rs.bk
 
 # Node
 node_modules
+tools/test-helper/dist
 package-lock.json
 
 # Nix
